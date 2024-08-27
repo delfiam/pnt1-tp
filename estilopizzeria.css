@@ -160,5 +160,11 @@ footer {
 }
 #header nav ul li a:hover {
   color: #af9898;              /* Cambia el color del texto al pasar el cursor */
-
 }
+
+.menu-item-img:hover{
+  transition: transform 0.6s ease;}
+
+.menu-item-img:hover{
+  transform: scale(1.3);}
+
