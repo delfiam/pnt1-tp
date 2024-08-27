@@ -158,7 +158,7 @@ footer {
     height: 125px;
   }
 }
-
 #header nav ul li a:hover {
   color: #af9898;              /* Cambia el color del texto al pasar el cursor */
+
 }
