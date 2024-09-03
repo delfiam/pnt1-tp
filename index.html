@@ -1,200 +1,234 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pizzería ORT</title>
-  <link rel="stylesheet" href="estilopizzeria.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería ORT</title>
+    <link rel="stylesheet" href="estilopizzeria.css">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
-
 <body>
-  <header id="header">
-    <h1>Pizzería La Rueda Del Sabor</h1>
-    <nav>
-      <ul>
-        <div id="boton">
-          <li><a href="#menu">Menú</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </div>
+    <header id="header">
+        <h1>Pizzería La Rueda Del Sabor</h1>
+        <nav>
+            <ul>
+              <div id="boton">
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contact">Contacto</a></li>
+              </div>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="menu">
+            <h2>Menú</h2>
+            <div class="container">
+                <div class="menu">
+                  <h2 class="menu-group-heading">Platos principales</h2>
+                  <div class="menu-group">
+                    <div class="menu-item">
+                      <img 
+                        src="images/margarita.avif"
+                        alt="Pizza Margarita"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Pizza Margarita</span>
+                          <span class="menu-item-price">$12</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                         Pizza clásica con salsa de tomate, mozzarella y albahaca.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu-item">
+                      <img
+                        src="images/peperoni.avif"
+                        alt="Pizza peperonni"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Pizza Pepperoni	</span>
+                          <span class="menu-item-price">$14</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                          Pizza con salsa de tomate, mozzarella y pepperoni.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu-item">
+                      <img
+                        src="images/cuatro quesos.avif"
+                        alt="Pizza Cuatro Quesos"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Pizza Cuatro Quesos</span>
+                          <span class="menu-item-price">$16</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                          Pizza con salsa de tomate, mozzarella, gorgonzola, parmesano y queso de cabra.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <h2 class="menu-group-heading">Acompañamientos</h2>
+                  <div class="menu-group">
+                    <div class="menu-item">
+                      <img
+                        src="images/pan de ajo.avif"
+                        alt="Pan de ajo"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Pan de ajo</span>
+                          <span class="menu-item-price">$2</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                          Pan de ajo recién horneado con ajo y mantequilla.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu-item">
+                      <img
+                        src="images/ensalada cesar.avif"
+                        alt="Ensalada Cesar"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Ensalada César</span>
+                          <span class="menu-item-price">$6</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                         Ensalada con lechuga romana, crutones, queso parmesano y aderezo César.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu-item">
+                      <img
+                        src="images/alitas de pollo.avif"
+                        alt="Alitas de Pollo"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Alitas de pollo</span>
+                          <span class="menu-item-price">$8</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                          Alitas de pollo fritas y sazonadas con una variedad de salsas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <h2 class="menu-group-heading">Postres</h2>
+                  <div class="menu-group">
+                    <div class="menu-item">
+                      <img
+                        src="images/tarta de manzana.avif"
+                        alt="Tarta de Manzana"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Tarta de Manzana</span>
+                          <span class="menu-item-price">$6</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                         Tarta de manzana con una base de hojaldre y relleno de manzanas y canela.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu-item">
+                      <img
+                        src="images/brownie de chocolate.avif"
+                        alt="Brownie de Chocolate"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Brownie de Chocolate	</span>
+                          <span class="menu-item-price">$6</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                          Brownie de chocolate con nueces y servido con helado de vainilla.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu-item">
+                      <img
+                        src="images/helado de vainilla.avif"
+                        alt="Helado de Vainilla"
+                        class="menu-item-img"
+                      />
+                      <div class="menu-item-text">
+                        <h3 class="menu-item-heading">
+                          <span class="menu-item-name">Helado de Vainilla</span>
+                          <span class="menu-item-price">$4</span>
+                        </h3>
+                        <p class="menu-item-desc">
+                          Tres bolas de helado de vainilla con cobertura de chocolate o caramelo.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+          <h2>Contacto</h2>
+          <p>Estamos aquí para ayudarte. ¡Ponte en contacto con nosotros!</p>
+          <div class="contact-info">
+              <div class="contact-item">
+                  <img src="images/direccion.png" alt="Dirección">
+                  <p>Dirección: <br> Avenida Cordoba 123, Buenos Aires</p>
+              </div>
+              <div class="contact-item">
+                  <img src="images/telefono.png" alt="Teléfono">
+                  <p>Teléfono: <br> +54 9 11 6754-9762</p>
+              </div>
+              <div class="contact-item">
+                  <img src="images/email.png" alt="Email">
+                  <p>Email: <br> contacto@laruedadelsabor.com</p>
+              </div>
+          </div>
+          <div class="contact-button">
+              <a href="mailto:contacto@laruedadelsabor.com">Envíanos un Email</a>
+          </div>
+      </section>
+    </main>
 
+    <div id="footer">
+      <ul class="list-inline">
+        <li>
+          <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+        </li>
       </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="menu">
-      <h2>Menú</h2>
-      <div class="container">
-        <div class="menu">
-          <h2 class="menu-group-heading">Platos principales</h2>
-          <div class="menu-group">
-            <div class="menu-item">
-              <img src="images/margarita.avif" alt="Pizza Margarita" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Pizza Margarita</span>
-                  <span class="menu-item-price">$12</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Pizza clásica con salsa de tomate, mozzarella y albahaca.
-                </p>
-              </div>
-            </div>
-            <div class="menu-item">
-              <img src="images/peperoni.avif" alt="Pizza peperonni" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Pizza Pepperoni </span>
-                  <span class="menu-item-price">$14</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Pizza con salsa de tomate, mozzarella y pepperoni.
-                </p>
-              </div>
-            </div>
-            <div class="menu-item">
-              <img src="images/cuatro quesos.avif" alt="Pizza Cuatro Quesos" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Pizza Cuatro Quesos</span>
-                  <span class="menu-item-price">$16</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Pizza con salsa de tomate, mozzarella, gorgonzola, parmesano y queso de cabra.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="menu">
-          <h2 class="menu-group-heading">Acompañamientos</h2>
-          <div class="menu-group">
-            <div class="menu-item">
-              <img src="images/pan de ajo.avif" alt="Pan de ajo" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Pan de ajo</span>
-                  <span class="menu-item-price">$2</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Pan de ajo recién horneado con ajo y mantequilla.
-                </p>
-              </div>
-            </div>
-            <div class="menu-item">
-              <img src="images/ensalada cesar.avif" alt="Ensalada Cesar" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Ensalada César</span>
-                  <span class="menu-item-price">$6</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Ensalada con lechuga romana, crutones, queso parmesano y aderezo César.
-                </p>
-              </div>
-            </div>
-            <div class="menu-item">
-              <img src="images/alitas de pollo.avif" alt="Alitas de Pollo" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Alitas de pollo</span>
-                  <span class="menu-item-price">$8</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Alitas de pollo fritas y sazonadas con una variedad de salsas.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="menu">
-          <h2 class="menu-group-heading">Postres</h2>
-          <div class="menu-group">
-            <div class="menu-item">
-              <img src="images/tarta de manzana.avif" alt="Tarta de Manzana" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Tarta de Manzana</span>
-                  <span class="menu-item-price">$6</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Tarta de manzana con una base de hojaldre y relleno de manzanas y canela.
-                </p>
-              </div>
-            </div>
-            <div class="menu-item">
-              <img src="images/brownie de chocolate.avif" alt="Brownie de Chocolate" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Brownie de Chocolate </span>
-                  <span class="menu-item-price">$6</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Brownie de chocolate con nueces y servido con helado de vainilla.
-                </p>
-              </div>
-            </div>
-            <div class="menu-item">
-              <img src="images/helado de vainilla.avif" alt="Helado de Vainilla" class="menu-item-img" />
-              <div class="menu-item-text">
-                <h3 class="menu-item-heading">
-                  <span class="menu-item-name">Helado de Vainilla</span>
-                  <span class="menu-item-price">$4</span>
-                </h3>
-                <p class="menu-item-desc">
-                  Tres bolas de helado de vainilla con cobertura de chocolate o caramelo.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact">
-      <h2>Contacto</h2>
-      <p>Estamos aquí para ayudarte. ¡Ponte en contacto con nosotros!</p>
-      <div class="contact-info">
-        <div class="contact-item">
-          <img src="images/direccion.png" alt="Dirección">
-          <p>Dirección: <br> Avenida Cordoba 123, Buenos Aires</p>
-        </div>
-        <div class="contact-item">
-          <img src="images/telefono.png" alt="Teléfono">
-          <p>Teléfono: <br> +54 9 11 6754-9762</p>
-        </div>
-        <div class="contact-item">
-          <img src="images/email.png" alt="Email">
-          <p>Email: <br> contacto@laruedadelsabor.com</p>
-        </div>
-      </div>
-      <div class="contact-button">
-        <a href="mailto:contacto@laruedadelsabor.com">Envíanos un Email</a>
-      </div>
-    </section>
-
-
-  </main>
-
-  <div id="footer">
-    <ul class="list-inline">
-      <li>
-        <a href="https://instagram.com/totosuckewer_" target="_blank"><i class="bi bi-instagram"></i></a>
-      </li>
-      <li>
-        <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
-      </li>
-      <li>
-        <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
-      </li>
-    </ul>
-    <p>&copy; 2024 Pizzería Deliciosa. Todos los derechos reservados.</p>
-  </div>
+      <p>&copy; 2024 Pizzería Deliciosa. Todos los derechos reservados.</p>
+    </div>
 </body>
-
 </html>

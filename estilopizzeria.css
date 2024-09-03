@@ -158,7 +158,7 @@ footer {
   }
 }
 #header nav ul li a:hover {
-  color: #af9898;              /* Cambia el color del texto al pasar el cursor */
+  color: #af9898;           
 }
 
 .menu-item-img:hover{
@@ -266,4 +266,12 @@ footer {
 
 #footer a:hover {
   color: white;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
 }
