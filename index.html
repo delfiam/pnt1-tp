@@ -199,39 +199,51 @@
           <form action="enviar.php" method="post">
               <div class="form-group">
                   <label for="name">Nombre:</label>
-                  <input type="text" id="name" name="name" required>
+                  <input type="text" id="name" name="name"  placeholder="Escribir tu nombre aquí" required>
               </div>
               <div class="form-group">
                   <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required>
+                  <input type="email" id="email" name="email" placeholder="Escribir tu email aquí" required>
               </div>
               <div class="form-group form-group-textarea">
-                  <label for="message">Mensaje:</label>
-                  <textarea id="message" name="message" required></textarea>
+                  <label for="reason">Motivo:</label>
+                  <select id="reason" name="reason" required>
+                      <option value="comentarios">Comentarios</option>
+                      <option value="preguntas">Preguntas</option>
+                      <option value="sugerencias">Sugerencias</option>
+                      <option value="otros">Otro</option>
+                  </select>
+              </div>
+              <div class="form-group form-group-textarea">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" placeholder="Escribir tu mensaje aquí" required></textarea>
+            </div>
+              <div class="form-group form-group-checkbox">
+                  <input type="checkbox" id="subscribe" name="subscribe" checked>
+                  <label for="subscribe">Suscribirme y recibir promociones</label>
               </div>
               <button type="submit">Enviar</button>
           </form>
-          <div class="contact-info">
-              <div class="contact-item">
-                  <img src="images/direccion.png" alt="Dirección">
-                  <p>Dirección: <br> Avenida Cordoba 123, Buenos Aires</p>
-              </div>
-              <div class="contact-item">
-                  <img src="images/telefono.png" alt="Teléfono">
-                  <p>Teléfono: <br> +54 9 11 6754-9762</p>
-              </div>
-              <div class="contact-item">
-                  <img src="images/email.png" alt="Email">
-                  <p>Email: <br> contacto@laruedadelsabor.com</p>
-              </div>
-          </div>
-          <div class="contact-button">
-              <a href="mailto:contacto@laruedadelsabor.com">Envíanos un Email</a>
-          </div>
       </section>
     </main>
 
     <div id="footer">
+    
+        <div class="contact-info">
+          <div class="contact-item">
+              <img src="images/direccion.png" alt="Dirección">
+              <p>Dirección: <br> Avenida Cordoba 123, Buenos Aires</p>
+          </div>
+          <div class="contact-item">
+              <img src="images/telefono.png" alt="Teléfono">
+              <p>Teléfono: <br> +54 9 11 6754-9762</p>
+          </div>
+          <div class="contact-item">
+              <img src="images/email.png" alt="Email">
+              <p>Email: <br> contacto@laruedadelsabor.com</p>
+          </div>
+        </div>
+     
       <ul class="list-inline">
         <li>
           <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
