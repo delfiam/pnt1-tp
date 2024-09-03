@@ -222,3 +222,48 @@ footer {
 .contact-button a:hover {
     background: #ff6347;
 }
+
+.bi-facebook {
+  font-size: 25px;
+  color: white;
+}
+
+/* Color y hover de los iconos de las redes sociales del footer */
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-twitter {
+  font-size: 25px;
+  color: white;
+}
+
+.bi-twitter:hover {
+  color: #add8e6;
+}
+
+.bi-instagram {
+  font-size: 25px;
+  color: white;
+}
+
+.bi-instagram:hover {
+  color: #8a3ab9;
+}
+
+#footer {
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: center;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 25px;
+}
+
+#footer a:hover {
+  color: white;
+}
