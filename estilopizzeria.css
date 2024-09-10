@@ -285,6 +285,7 @@ form {
 }
 .form-group label {
     font-size: 18px;
+    display: flex;
 }
 .form-group input, .form-group textarea {
     padding: 10px;
