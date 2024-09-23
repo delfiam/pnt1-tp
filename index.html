@@ -307,10 +307,11 @@
         <section id="contact">
           <h2>Contacto</h2>
           <p>Estamos aquí para ayudarte. ¡Ponte en contacto con nosotros!</p>
-          <form method="post" onsubmit="return validarForm()">
+          <form method="post" onsubmit="validarForm()">
               <div class="form-group">
                   <label for="name" onclick="">Nombre:</label>
-                  <input type="text" id="nombre" name="nombre"  placeholder="Escribir tu nombre aquí"  onchange="validarForm()">
+                  <input type="text" id="nombre" name="nombre"  placeholder="Escribir tu nombre aquí" >
+                  <p id="errorNombre"></p>
               </div>
               <div class="form-group">
                   <label for="email">Email:</label>

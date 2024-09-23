@@ -1,16 +1,17 @@
 function validarForm() {
 
       var nombre = document.getElementById("nombre").value;
-      var email = document.getElementById("email").value;
+      var email = document.getElementById("mail").value;
+      var motivo = document.getElementById("motivo").value;
       var mensaje = document.getElementById("mensaje").value;
    
-      if (nombre == "" || email == "" || mensaje == "") {
+      if (nombre == "" || email == "" || motivo == "" || mensaje == "") {
          alert("Todos los campos son obligatorios");
-         return false;
+        
       }
       else {
-         alert("Mensaje enviado correctamente");
-         return true;
+         alert("Formulario enviado correctamente");
+         
       }
 
 }
