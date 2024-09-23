@@ -307,18 +307,18 @@
         <section id="contact">
           <h2>Contacto</h2>
           <p>Estamos aquí para ayudarte. ¡Ponte en contacto con nosotros!</p>
-          <form action="enviar.php" method="post">
+          <form method="post" onsubmit="return validarForm()">
               <div class="form-group">
-                  <label for="name">Nombre:</label>
-                  <input type="text" id="name" name="name"  placeholder="Escribir tu nombre aquí" required>
+                  <label for="name" onclick="">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre"  placeholder="Escribir tu nombre aquí"  onchange="validarForm()">
               </div>
               <div class="form-group">
                   <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" placeholder="Escribir tu email aquí" required>
+                  <input type="email" id="mail" name="mail" placeholder="Escribir tu email aquí" >
               </div>
               <div class="form-group form-group-textarea">
-                  <label for="reason">Motivo:</label>
-                  <select id="reason" name="reason" required>
+                  <label for="motivo">Motivo:</label>
+                  <select id="motivo" name="motivo" >
                       <option value="comentarios">Comentarios</option>
                       <option value="preguntas">Preguntas</option>
                       <option value="sugerencias">Sugerencias</option>
@@ -326,12 +326,12 @@
                   </select>
               </div>
               <div class="form-group form-group-textarea">
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" placeholder="Escribir tu mensaje aquí" required></textarea>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribir tu mensaje aquí" ></textarea>
             </div>
               <div class="form-group form-group-checkbox">
-                  <input type="checkbox" id="subscribe" name="subscribe" checked>
-                  <label for="subscribe">Suscribirme y recibir promociones</label>
+                  <input type="checkbox" id="suscribirse" name="suscribirse" checked>
+                  <label for="suscribirse">Suscribirme y recibir promociones</label>
               </div>
               <button type="submit">Enviar</button>
           </form>
@@ -368,5 +368,6 @@
       </ul>
       <p>&copy; 2024 Pizzería Deliciosa. Todos los derechos reservados.</p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
