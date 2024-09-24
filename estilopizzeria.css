@@ -228,7 +228,6 @@ footer {
   color: white;
 }
 
-/* Color y hover de los iconos de las redes sociales del footer */
 
 .bi-facebook:hover {
   color: #3b5998;
@@ -277,11 +276,11 @@ footer {
 }
 form {
     display: grid;
-    gap: 20px;
+ 
 }
 .form-group {
     display: grid;
-    gap: 10px;
+
 }
 .form-group label {
     font-size: 18px;
@@ -320,7 +319,13 @@ button {
 
 .form-group-checkbox {
   display: flex;
-  gap: 10px;
+
   align-items: center;
   justify-content: center;
+}
+.errorMensaje {
+    color: red;
+    font-size: 2px;
+    font-weight: bold;
+    text-align: left;
 }
