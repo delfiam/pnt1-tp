@@ -1,0 +1,5 @@
+C:\Users\Luci\Desktop\ORT\2 do cuat - 2024\Nuevas_Tecnologias\Ejercicios\cuat2_PNT_ProyCS\Cuat2_PNT_TP1_EJenC.exe
+C:\Users\Luci\Desktop\ORT\2 do cuat - 2024\Nuevas_Tecnologias\Ejercicios\cuat2_PNT_ProyCS\Cuat2_PNT_TP1_EJenC.dll
+C:\Users\Luci\Desktop\ORT\2 do cuat - 2024\Nuevas_Tecnologias\Ejercicios\cuat2_PNT_ProyCS\Cuat2_PNT_TP1_EJenC.deps.json
+C:\Users\Luci\Desktop\ORT\2 do cuat - 2024\Nuevas_Tecnologias\Ejercicios\cuat2_PNT_ProyCS\Cuat2_PNT_TP1_EJenC.runtimeconfig.json
+C:\Users\Luci\Desktop\ORT\2 do cuat - 2024\Nuevas_Tecnologias\Ejercicios\cuat2_PNT_ProyCS\Cuat2_PNT_TP1_EJenC.pdb

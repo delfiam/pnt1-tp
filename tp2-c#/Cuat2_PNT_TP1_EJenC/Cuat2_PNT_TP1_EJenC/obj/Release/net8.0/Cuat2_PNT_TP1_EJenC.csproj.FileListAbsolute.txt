@@ -1,0 +1,14 @@
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\Cuat2_PNT_TP1_EJenC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\Cuat2_PNT_TP1_EJenC.AssemblyInfoInputs.cache
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\Cuat2_PNT_TP1_EJenC.AssemblyInfo.cs
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\Cuat2_PNT_TP1_EJenC.csproj.CoreCompileInputs.cache
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\bin\Release\net8.0\Cuat2_PNT_TP1_EJenC.exe
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\bin\Release\net8.0\Cuat2_PNT_TP1_EJenC.deps.json
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\bin\Release\net8.0\Cuat2_PNT_TP1_EJenC.runtimeconfig.json
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\bin\Release\net8.0\Cuat2_PNT_TP1_EJenC.dll
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\bin\Release\net8.0\Cuat2_PNT_TP1_EJenC.pdb
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\Cuat2_PNT_TP1_EJenC.dll
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\refint\Cuat2_PNT_TP1_EJenC.dll
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\Cuat2_PNT_TP1_EJenC.pdb
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\Cuat2_PNT_TP1_EJenC.genruntimeconfig.cache
+C:\Users\Luci\source\repos\Cuat2_PNT_TP1_EJenC\Cuat2_PNT_TP1_EJenC\obj\Release\net8.0\ref\Cuat2_PNT_TP1_EJenC.dll

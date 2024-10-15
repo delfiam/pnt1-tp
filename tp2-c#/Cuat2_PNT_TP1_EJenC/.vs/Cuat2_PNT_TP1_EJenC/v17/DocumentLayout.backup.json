@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\turnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\turnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\maintestturnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\maintestturnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\luci\\source\\repos\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\obrasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\obrasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Paciente.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Paciente.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:50:26.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:32:35.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ObraSocial.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:18:20.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Clinica.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Clinica.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Clinica.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Clinica.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Clinica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:01:11.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Turnera.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Turnera.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Turnera.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Turnera.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Turnera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:58:27.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Persona.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Persona.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Persona.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Persona.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:23:19.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Ticket.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Ticket.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Ticket.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:37:25.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Medico.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Medico.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Medico.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Medico.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:34:35.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainTestTurnera.cs",
+              "DocumentMoniker": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
+              "ToolTip": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T01:28:16.139Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

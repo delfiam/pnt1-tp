@@ -1,0 +1,3 @@
+﻿public enum Especialidad
+{PEDIATRIA, TRAUMATO, OFTALMO, DERMATOLOGIA
+}

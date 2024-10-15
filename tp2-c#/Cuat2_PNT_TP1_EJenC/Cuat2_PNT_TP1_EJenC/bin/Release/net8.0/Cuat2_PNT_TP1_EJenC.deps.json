@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Cuat2_PNT_TP1_EJenC/1.0.0": {
+        "runtime": {
+          "Cuat2_PNT_TP1_EJenC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cuat2_PNT_TP1_EJenC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
