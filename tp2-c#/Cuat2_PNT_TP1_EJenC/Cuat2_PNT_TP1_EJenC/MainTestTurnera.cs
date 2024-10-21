@@ -9,8 +9,8 @@ namespace Cuat2_PNT_TP1_EJenC
     internal class MainTestTurnera { 
         static void Main(string[] args) {
 
-            Paciente pac = new Paciente("24717182", "emiliano", ObraSocial.GALENO);
-            Medico med = new Medico("21342134", "Dalmacio Velez Sarfield", Especialidad.OFTALMO);
+            Paciente pac = new Paciente() { dni = "12345678", nombre = "Juan Perez", obraSocial = ObraSocial.OSDE };
+            Medico med = new Medico() { dni = "87654321", nombre = "Dr. Juan Lopez", especialidad = Especialidad.DERMATOLOGIA };
 
 
 

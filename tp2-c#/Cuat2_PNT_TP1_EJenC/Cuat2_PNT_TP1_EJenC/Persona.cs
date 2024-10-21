@@ -1,4 +1,7 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
+
 /*
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +12,8 @@ using System.Threading.Tasks;
 public abstract class Persona
 {
     private static long proxIdPersona = 1;
+
+    [Key]
     public string dni { get; set; }
     public string nombre { get; set; }
     public long idPersona { get; set; }

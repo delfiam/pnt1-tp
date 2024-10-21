@@ -1,0 +1,55 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><element><id>UMLClass</id><coordinates><x>602</x><y>12</y><w>204</w><h>120</h></coordinates><panel_attributes>Turnera
+--
+-idTurnera: int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>602</x><y>192</y><w>204</w><h>132</h></coordinates><panel_attributes>Ticket
+--
+-nroTurno: int
+fecha: DateOnly
+-hora: TimeOnly
+-nombrePaciente: String
+-nombreMedico: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>324</y><w>168</w><h>84</h></coordinates><panel_attributes>Paciente
+--
+-obraSocial:ObraSocial
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>14</x><y>324</y><w>204</w><h>84</h></coordinates><panel_attributes>Medico
+--
+-Especialidad: Especialidad
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>686</x><y>120</y><w>84</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
+-turnos
+m1=*</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>146</x><y>48</y><w>96</w><h>300</h></coordinates><panel_attributes>lt=&lt;-
+-medicos
+m1=*</panel_attributes><additional_attributes>10;230;10;10;60;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>422</x><y>468</y><w>144</w><h>120</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+ObraSocial
+--
+_PAMI_
+_OSECAC_
+_OSLERA_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>468</y><w>144</w><h>132</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+Especialidad
+--
+_PEDIATRIA_
+_TRAUMATO_
+_OFTALMO_
+_DERMATOLOGIA_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>218</x><y>12</y><w>204</w><h>120</h></coordinates><panel_attributes>Clinica
+--
+-nombre: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>254</x><y>252</y><w>144</w><h>84</h></coordinates><panel_attributes>Persona
+--
+-idPersona: int
+-dni:String
+-nombre:String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>84</y><w>144</w><h>264</h></coordinates><panel_attributes>lt=&lt;-
+-pacientes
+m1=*</panel_attributes><additional_attributes>40;200;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>482</x><y>396</y><w>48</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>158</x><y>264</y><w>468</w><h>252</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+-especialidad</panel_attributes><additional_attributes>10;180;220;150;370;10</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>396</y><w>48</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>48</y><w>216</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+turneras
+m1=*</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>206</x><y>324</y><w>108</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;70;30;10;30</additional_attributes></element><element><id>Relation</id><coordinates><x>326</x><y>324</y><w>108</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;30;70;30</additional_attributes></element><element><id>Relation</id><coordinates><x>182</x><y>228</y><w>444</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;80;10;10;350;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>638</x><y>336</y><w>168</w><h>108</h></coordinates><panel_attributes>C#
+- clases
+-atributos
+-contructor
+..
+customelement=
+drawArc(width-25,5,10,50,50,80,false) fg=red bg=red //Parameters (x, y, width, height, start, extent, open)
+drawCircle(width-20,40,3) fg=red bg=red //Parameters (x, y, radius)
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

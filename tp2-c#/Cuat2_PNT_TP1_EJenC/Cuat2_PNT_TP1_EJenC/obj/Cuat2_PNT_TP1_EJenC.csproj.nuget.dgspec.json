@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj": {}
+    "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj": {
+    "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
+        "projectUniqueName": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
         "projectName": "Cuat2_PNT_TP1_EJenC",
-        "projectPath": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
-        "packagesPath": "C:\\Users\\Luci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luci\\source\\repos\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\obj\\",
+        "projectPath": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
+        "packagesPath": "C:\\Users\\delfi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\delfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
