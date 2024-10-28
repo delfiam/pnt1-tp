@@ -9,13 +9,13 @@ namespace Cuat2_PNT_TP1_EJenC
     internal class Ticket
     {
         private int nroTurno;
-        private String nombrePaciente;
-        private String nombreMedico;
+        private Paciente nombrePaciente;
+        private Medico nombreMedico;
         private Especialidad especialidad;
         private DateOnly fecha;
         private TimeOnly hora;
         
-        public Ticket (int nroTurno, DateOnly fecha, TimeOnly hora, String nombreMedico, String nombrePaciente, Especialidad especialidad)
+        public Ticket (int nroTurno, DateOnly fecha, TimeOnly hora, Medico nombreMedico, Paciente nombrePaciente, Especialidad especialidad)
         {
             this.nroTurno = nroTurno;
             this.nombrePaciente = nombrePaciente;
