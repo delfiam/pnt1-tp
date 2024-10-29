@@ -10,7 +10,7 @@ namespace Cuat2_PNT_TP1_EJenC.Conexion
 {
     internal class PersonaAccesoADatos
     {
-        public static void AgregarPersona(Persona persona, Conexion.Contexto contexto)
+        public static void AgregarPersona(Persona persona, Contexto contexto)
         {
             try {
                 contexto.Personas.Add(persona);
@@ -19,7 +19,7 @@ namespace Cuat2_PNT_TP1_EJenC.Conexion
                 throw e;
             }
         }
-        public static string ListarPersonas(Conexion.Contexto contexto)
+        public static string ListarPersona(Contexto contexto)
         {
           string lista = "";
             try {
@@ -31,7 +31,7 @@ namespace Cuat2_PNT_TP1_EJenC.Conexion
             }
             return lista;
         } 
-        public static void eliminarPersona (Persona persona, Conexion.Contexto contexto)
+        public static void eliminarPersona (Persona persona, Contexto contexto)
         {
             try {
                var personaEliminar = contexto.Personas.Find(persona.idPersona);
@@ -46,7 +46,7 @@ namespace Cuat2_PNT_TP1_EJenC.Conexion
                 throw e;
             }
         }
-        public static void modificarPersona (Persona persona, Conexion.Contexto contexto)
+        public static void modificarPersona (Persona persona, Contexto contexto)
         {
             try {
                 var personaModificar = contexto.Personas.Find(persona.idPersona);

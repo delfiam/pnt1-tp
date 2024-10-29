@@ -10,10 +10,31 @@ namespace Cuat2_PNT_TP1_EJenC.Conexion
     internal class Contexto : DbContext
     {
         public DbSet<Persona> Personas { get; set; }
+        public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<Medico> Medicos { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Paciente>()
+                .ToTable("Pacientes")
+                .Property(p => p.obraSocial)
+        .HasConversion<string>();
+
+
+            modelBuilder.Entity<Persona>()
+                .ToTable("Personas")
+                  .HasKey(p => p.idPersona);
+
+            modelBuilder.Entity<Medico>()
+                .ToTable("Medicos")
+                .Property(p => p.especialidad)
+        .HasConversion<string>();
+
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-2N6B5NK\\SQLEXPRESS.;Database=TURNERA;Trusted_Connection=True;");
-        }   
+            optionsBuilder.UseSqlServer("Server=DESKTOP-2N6B5NK\\SQLEXPRESS;Database=TURNERA;Trusted_Connection=True;TrustServerCertificate=True;");
+        }
     }
 }

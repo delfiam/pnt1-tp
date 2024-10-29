@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 /*
@@ -14,9 +15,11 @@ public abstract class Persona
     private static long proxIdPersona = 1;
 
     [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int idPersona { get; set; }
     public string dni { get; set; }
     public string nombre { get; set; }
-    public long idPersona { get; set; }
+    
 
 
     //public Persona(string dni, string nombre)

@@ -1,4 +1,4 @@
 ﻿public class Paciente : Persona
 {
-    public ObraSocial obraSocial { get; set; }
+    public  ObraSocial obraSocial { get; set; } 
 }
