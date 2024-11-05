@@ -9,9 +9,9 @@ namespace Cuat2_PNT_TP1_EJenC.Conexion
 {
     internal class Contexto : DbContext
     {
-        public DbSet<Persona> Personas { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<Medico> Medicos { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -21,9 +21,9 @@ namespace Cuat2_PNT_TP1_EJenC.Conexion
         .HasConversion<string>();
 
 
-            modelBuilder.Entity<Persona>()
-                .ToTable("Personas")
-                  .HasKey(p => p.idPersona);
+            modelBuilder.Entity<Ticket>()
+                .ToTable("Tickets")
+                  .HasKey(p => p.nroTurno);
 
             modelBuilder.Entity<Medico>()
                 .ToTable("Medicos")

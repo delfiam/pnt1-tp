@@ -3,87 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\maintestturnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\maintestturnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\conexion\\pacienteaccesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\conexion\\pacienteaccesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011330_RecreateIdColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011330_RecreateIdColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011203_AlterIdentityColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011203_AlterIdentityColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\obrasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\obrasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\conexion\\personaaccesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\conexion\\personaaccesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005200_AlterIdentityColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005200_AlterIdentityColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005051_NombreDeTuMigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005051_NombreDeTuMigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\migrations\\20241021234059_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\migrations\\20241021234059_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022003252_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cuat2_PNT_TP1_EJenC\\Migrations\\20241022003252_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022000756_ArregloHerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cuat2_PNT_TP1_EJenC\\Migrations\\20241022000756_ArregloHerencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022001027_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cuat2_PNT_TP1_EJenC\\Migrations\\20241022001027_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241105011520_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cuat2_PNT_TP1_EJenC\\Migrations\\20241105011520_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\turnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\turnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\conexion\\pacienteaccesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\conexion\\pacienteaccesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\conexion\\personaaccesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\conexion\\personaaccesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\obrasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\obrasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\maintestturnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\maintestturnera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delfi\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|c:\\users\\delfi\\onedrive\\escritorio\\ort\\pnt\\pnt1-tp\\tp2-c#\\cuat2_pnt_tp1_ejenc\\cuat2_pnt_tp1_ejenc\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6AE3D7-8BBA-482F-97DE-ED56C6358103}|Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj|solutionrelative:cuat2_pnt_tp1_ejenc\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,258 +69,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241105011520_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241105011520_Inicial.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241105011520_Inicial.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241105011520_Inicial.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241105011520_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T01:15:20.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "20241022011330_RecreateIdColumn.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011330_RecreateIdColumn.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011330_RecreateIdColumn.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011330_RecreateIdColumn.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011330_RecreateIdColumn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T01:13:30.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Paciente.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Paciente.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Paciente.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Paciente.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Paciente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:50:26.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Persona.cs",
               "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Persona.cs",
               "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Persona.cs",
               "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Persona.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T21:23:19.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainTestTurnera.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T01:28:16.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PacienteAccesoADatos.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\PacienteAccesoADatos.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Conexion\\PacienteAccesoADatos.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\PacienteAccesoADatos.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Conexion\\PacienteAccesoADatos.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAQwEsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T22:38:05.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\Conexion.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Conexion\\Conexion.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\Conexion.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Conexion\\Conexion.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwB0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T01:10:34.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20241022011203_AlterIdentityColumn.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011203_AlterIdentityColumn.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011203_AlterIdentityColumn.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011203_AlterIdentityColumn.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022011203_AlterIdentityColumn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T01:12:03.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ObraSocial.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T22:18:20.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Especialidad.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T22:32:35.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Medico.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Medico.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Medico.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Medico.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Medico.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:34:35.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PersonaAccesoADatos.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\PersonaAccesoADatos.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Conexion\\PersonaAccesoADatos.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\PersonaAccesoADatos.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Conexion\\PersonaAccesoADatos.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAwDMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T22:27:09.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20241022005200_AlterIdentityColumn.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005200_AlterIdentityColumn.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005200_AlterIdentityColumn.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005200_AlterIdentityColumn.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005200_AlterIdentityColumn.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:52:00.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20241022005051_NombreDeTuMigracion.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005051_NombreDeTuMigracion.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005051_NombreDeTuMigracion.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005051_NombreDeTuMigracion.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022005051_NombreDeTuMigracion.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:50:51.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20241021234059_Migracion.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241021234059_Migracion.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241021234059_Migracion.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241021234059_Migracion.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241021234059_Migracion.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T23:41:00.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20241022003252_Test.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022003252_Test.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022003252_Test.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022003252_Test.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022003252_Test.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:32:52.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20241022000756_ArregloHerencia.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022000756_ArregloHerencia.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022000756_ArregloHerencia.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022000756_ArregloHerencia.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022000756_ArregloHerencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:07:56.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20241022001027_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022001027_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022001027_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Migrations\\20241022001027_InitialCreate.cs",
-              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Migrations\\20241022001027_InitialCreate.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAQwHkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:10:27.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ReaderModificationCommandBatch.cs",
-              "DocumentMoniker": "C:\\Users\\delfi\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs",
-              "ToolTip": "C:\\Users\\delfi\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs [Solo lectura]",
-              "ViewState": "AgIAANQAAAAAAAAAAAAgwN4AAAADAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T23:53:46.704Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Ticket.cs",
               "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Ticket.cs",
               "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Ticket.cs",
               "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Ticket.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T22:37:25.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Medico.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Medico.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Medico.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Medico.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:34:35.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Clinica.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Clinica.cs",
               "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Clinica.cs",
@@ -357,15 +138,135 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\Conexion.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Conexion\\Conexion.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\Conexion.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Conexion\\Conexion.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T01:10:34.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Paciente.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Paciente.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Paciente.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:50:26.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PacienteAccesoADatos.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\PacienteAccesoADatos.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Conexion\\PacienteAccesoADatos.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\PacienteAccesoADatos.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Conexion\\PacienteAccesoADatos.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:38:05.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonaAccesoADatos.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\PersonaAccesoADatos.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Conexion\\PersonaAccesoADatos.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Conexion\\PersonaAccesoADatos.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Conexion\\PersonaAccesoADatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:27:09.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cuat2_PNT_TP1_EJenC",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T01:08:03.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Turnera.cs",
               "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Turnera.cs",
               "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Turnera.cs",
               "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Turnera.cs",
               "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Turnera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:58:27.891Z"
+              "WhenOpened": "2024-09-30T21:58:27.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ObraSocial.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\ObraSocial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:18:20.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainTestTurnera.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\MainTestTurnera.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T01:28:16.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
+              "RelativeDocumentMoniker": "Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
+              "RelativeToolTip": "Cuat2_PNT_TP1_EJenC\\Especialidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:32:35.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReaderModificationCommandBatch.cs",
+              "DocumentMoniker": "C:\\Users\\delfi\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs",
+              "ToolTip": "C:\\Users\\delfi\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\efc3882265efbd4e3ed2d345c6506fac3dee029bc5f2e58ced39daaea6fc9c41\\ReaderModificationCommandBatch.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAgwN4AAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:53:46.704Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

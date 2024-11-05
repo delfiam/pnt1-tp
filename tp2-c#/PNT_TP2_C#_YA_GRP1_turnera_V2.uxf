@@ -1,0 +1,59 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><element><id>UMLClass</id><coordinates><x>612</x><y>48</y><w>204</w><h>120</h></coordinates><panel_attributes>Turnera
+--
+_-nroProx:int_
+-idTurnera:int
+--
++darTurno():void
++llamarTurno():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>612</x><y>228</y><w>204</w><h>216</h></coordinates><panel_attributes>Ticket
+--
+-nroTurno:int
+-nombrePaciente:String
+-nombreMedico:String
+-especialidad:Especialidad
+-fecha: DateOnly
+-hora: TimeOnly
+--
++llamarTurno():void
++toString():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>360</y><w>168</w><h>84</h></coordinates><panel_attributes>Paciente
+--
+-obraSocial:ObraSocial
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>24</x><y>360</y><w>204</w><h>84</h></coordinates><panel_attributes>Medico
+--
+-Especialidad: Especialidad
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>696</x><y>156</y><w>84</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
+-turnos
+m1=*</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>156</x><y>84</y><w>96</w><h>300</h></coordinates><panel_attributes>lt=&lt;-
+-medicos
+m1=*</panel_attributes><additional_attributes>10;230;10;10;60;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>432</x><y>504</y><w>144</w><h>120</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+ObraSocial
+--
+_PAMI_
+_OSECAC_
+_OSLERA_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>504</y><w>144</w><h>132</h></coordinates><panel_attributes>&lt;&lt;enum&gt;&gt;
+Especialidad
+--
+_PEDIATRIA_
+_TRAUMATO_
+_OFTALMO_
+_DERMATOLOGIA_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>228</x><y>48</y><w>204</w><h>120</h></coordinates><panel_attributes>Clinica
+--
+-nombre: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>204</y><w>144</w><h>96</h></coordinates><panel_attributes>Persona
+--
+-idPersona:int
+-dni:String
+-nombre:String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>120</y><w>144</w><h>264</h></coordinates><panel_attributes>lt=&lt;-
+-pacientes
+m1=*</panel_attributes><additional_attributes>40;200;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>492</x><y>432</y><w>48</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>432</y><w>48</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>84</y><w>216</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+turneras
+m1=*</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>288</y><w>108</w><h>132</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;70;90;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>336</x><y>288</y><w>108</w><h>132</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90;70;90</additional_attributes></element><element><id>UMLNote</id><coordinates><x>648</x><y>504</y><w>168</w><h>108</h></coordinates><panel_attributes>C#
+- clases
+-atributos
+-contructor
+..
+customelement=
+drawArc(width-25,5,10,50,50,80,false) fg=red bg=red //Parameters (x, y, width, height, start, extent, open)
+drawCircle(width-20,40,3) fg=red bg=red //Parameters (x, y, radius)
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

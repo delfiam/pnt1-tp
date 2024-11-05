@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 */
 
-public abstract class Persona
+public class Persona
 {
     private static long proxIdPersona = 1;
 

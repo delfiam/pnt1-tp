@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cuat2_PNT_TP1_EJenC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+428e89e6f2b2c629a64e5764a1b0c0abf0120255")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec9988bddbcb179409b47bda9a4d21bb1264a9ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cuat2_PNT_TP1_EJenC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cuat2_PNT_TP1_EJenC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

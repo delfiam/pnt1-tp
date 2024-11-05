@@ -24,7 +24,7 @@ public class Turnera
 
     public void DarTurno(int nroTurno, DateOnly fecha, TimeOnly hora, string nombreMedico, string nombrePaciente, Especialidad especialidad)
     {
-        this.turnos.Add(new Ticket (proximoNro, fecha, hora, nombreMedico, nombrePaciente, especialidad));
+       // this.turnos.Add(new Ticket (proximoNro, fecha, hora, nombreMedico, nombrePaciente, especialidad));
                
         Turnera.proximoNro++;
     }
