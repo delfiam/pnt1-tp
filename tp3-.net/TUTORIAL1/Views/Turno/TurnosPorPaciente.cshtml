@@ -1,5 +1,9 @@
 ﻿@model IEnumerable<TUTORIAL1.Models.Turno>
 
+@{
+    ViewData["Title"] = "Mis turnos";
+}
+
 <h2>Mis Turnos</h2>
 
 @if (ViewBag.ErrorMessage != null)
@@ -17,9 +21,7 @@ else
                 <th>
                     @Html.DisplayNameFor(model => model.Medico)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Paciente)
-                </th>
+              
                 <th>
                     @Html.DisplayNameFor(model => model.Medico.Especialidad)
                 </th>
@@ -36,9 +38,7 @@ else
                     <td>
                         @Html.DisplayFor(modelItem => item.Medico.NombreCompleto)
                     </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Paciente.NombreCompleto)
-                    </td>
+                  
                     <td>
                         @Html.DisplayFor(modelItem => item.Medico.Especialidad)
                     </td>

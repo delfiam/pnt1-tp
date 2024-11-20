@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
         "projectName": "Cuat2_PNT_TP1_EJenC",
-        "projectPath": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
-        "packagesPath": "C:\\Users\\delfi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\delfi\\OneDrive\\Escritorio\\ORT\\PNT\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\pnt1-tp\\tp2-c#\\Cuat2_PNT_TP1_EJenC\\Cuat2_PNT_TP1_EJenC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\delfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
