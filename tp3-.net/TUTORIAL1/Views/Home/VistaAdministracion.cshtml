@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Vista Administracion";
+}
+
+<div class="text-center">
+    <h1>Bienvenidos adminstración</h1>
+
+    <h2>Seleccione aquí para crear un turno</h2>
+    <a class="btn btn-primary" asp-area="" asp-controller="Ticket" asp-action="Create">Crear turno</a>
+
+    <h2>Seleccione aquí para ver los turnos</h2>
+    <a class="btn btn-primary" asp-area="" asp-controller="Ticket" asp-action="Index">Buscar turno </a>
+
+    <h2>Seleccione aquí para ver los médicos</h2>
+    <a class="btn btn-primary" asp-area="" asp-controller="Medico" asp-action="Index">Ver médicos</a>
+
+    <h2>Seleccione aquí para ver los pacientes</h2>
+	<a class="btn btn-primary" asp-area="" asp-controller="Paciente" asp-action="Index">Ver pacientes</a>
+</div>
