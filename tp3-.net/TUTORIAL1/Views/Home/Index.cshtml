@@ -2,10 +2,10 @@
     ViewData["Title"] = "Clínica";
 }
 
-<div class="text-center justify-items-center justify-center">
+<div class="flex items-center justify-center text-center" style="min-height: calc(100vh - 150px)">
 	<div class=" p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 		<h1 class="title">Bienvenidos a la Clínica</h1>
-		<h2>Identifíquese</h2>
+		<h2 >Identifíquese</h2>
 		<div class="grid grid-cols-2 gap-10">
 			<a class="btn btn-primary" asp-area="" asp-controller="Paciente" asp-action="Identificarse">Paciente</a>
 			<a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="VistaAdministracion">Administración</a>
