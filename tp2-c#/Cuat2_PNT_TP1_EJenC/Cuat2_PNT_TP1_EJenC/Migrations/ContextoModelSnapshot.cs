@@ -21,15 +21,32 @@ namespace Cuat2_PNT_TP1_EJenC.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Persona", b =>
+            modelBuilder.Entity("Cuat2_PNT_TP1_EJenC.Ticket", b =>
                 {
-                    b.Property<long>("idPersona")
+                    b.Property<int>("nroTurno")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                        .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("idPersona"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("nroTurno"));
+
+                    b.HasKey("nroTurno");
+
+                    b.ToTable("Tickets", (string)null);
+                });
+
+            modelBuilder.Entity("Medico", b =>
+                {
+                    b.Property<int>("idPersona")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("idPersona"));
 
                     b.Property<string>("dni")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("especialidad")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -39,48 +56,32 @@ namespace Cuat2_PNT_TP1_EJenC.Migrations
 
                     b.HasKey("idPersona");
 
-                    b.ToTable("Personas", (string)null);
-
-                    b.UseTptMappingStrategy();
-                });
-
-            modelBuilder.Entity("Medico", b =>
-                {
-                    b.HasBaseType("Persona");
-
-                    b.Property<int>("especialidad")
-                        .HasColumnType("int");
-
                     b.ToTable("Medicos", (string)null);
                 });
 
             modelBuilder.Entity("Paciente", b =>
                 {
-                    b.HasBaseType("Persona");
+                    b.Property<int>("idPersona")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("idPersona"));
+
+                    b.Property<string>("dni")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("obraSocial")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.HasKey("idPersona");
+
                     b.ToTable("Pacientes", (string)null);
-                });
-
-            modelBuilder.Entity("Medico", b =>
-                {
-                    b.HasOne("Persona", null)
-                        .WithOne()
-                        .HasForeignKey("Medico", "idPersona")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("Paciente", b =>
-                {
-                    b.HasOne("Persona", null)
-                        .WithOne()
-                        .HasForeignKey("Paciente", "idPersona")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

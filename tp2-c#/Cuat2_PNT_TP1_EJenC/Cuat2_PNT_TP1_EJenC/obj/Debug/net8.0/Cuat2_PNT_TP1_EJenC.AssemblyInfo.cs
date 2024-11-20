@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cuat2_PNT_TP1_EJenC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4613ad4f0e1eb0e99b6382514bf99ea754eab6a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4574cc360b838816d96f48808b3d539f64c409e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cuat2_PNT_TP1_EJenC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cuat2_PNT_TP1_EJenC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Hospital xx";
+}
+
+<div class="text-center">
+    <h1>Bienvenidos al hospital xx</h1>
+    <h2>Seleccione aquí para sacar turno</h2>
+	<a class="btn btn-primary" asp-area="" asp-controller="Ticket" asp-action="Create">Sacar turno</a>
+
+    <h2>Seleccione aquí para ver los turnos</h2>
+    <a class="btn btn-primary" asp-area="" asp-controller="Ticket" asp-action="Index">Buscar turno </a>
+
+    <h2>Seleccione aquí para ver los médicos</h2>
+    <a class="btn btn-primary" asp-area="" asp-controller="Medico" asp-action="Index">Ver médicos</a>
+</div>
