@@ -20,3 +20,16 @@ html {
 body {
   margin-bottom: 60px;
 }
+.title {
+    font-size: 20px;
+    margin: 10px;
+}
+.btn.btn-primary {
+    width: 80%;
+    margin: 20px;
+    background-color: blue;
+
+}
+.btn.btn-primary hover {
+    background-color: blue;
+}
