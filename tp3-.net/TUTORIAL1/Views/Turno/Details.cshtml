@@ -5,46 +5,53 @@
 }
 
 <h1>Detalles</h1>
+<div class=" items-center justify-center" >
 
-<div>
+<div class=" p-12 bg-white border border-gray-200 rounded-lg shadow">
     <h4>Turno</h4>
     <hr />
-    <p>Especialidad @Model.Medico.Especialidad</p>
-    <p>OBRA SOCIAL @Model.Paciente.ObraSocial</p>
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaHora)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medico.Especialidad)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FechaHora)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medico.Especialidad)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Medico.Dni)
+          Obra Social
         </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Paciente.ObraSocial)
+        </dd>
+        <dt class = "col-sm-2">
+Médico DNI        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Medico.Dni)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Medico.NombreCompleto)
+            Nombre Médico
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Medico.NombreCompleto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Paciente.Dni)
+           DNI Paciente
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Paciente.Dni)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Paciente.NombreCompleto)
+            Nombre Paciente
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Paciente.NombreCompleto)
         </dd>
     </dl>
+     <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Editar</a> 
+    <a class="btn btn-primary" asp-action="Index">Volver a la lista</a>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+</div>
+<div class="grid grid-cols-2 gap-10">
+
+   
 </div>
