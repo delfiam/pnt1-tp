@@ -46,10 +46,26 @@ namespace TUTORIAL1.Controllers
             return View(turno);
         }
 
+
+
         // GET: Turno/Create
         public IActionResult Create()
         {
-            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
+            if (TempData["EspecialidadSeleccionada"] == null)
+            {
+                return RedirectToAction("SelectEspecialidad");
+            }
+            Especialidad especialidadSeleccionada = (Especialidad)TempData["EspecialidadSeleccionada"];
+
+            if (especialidadSeleccionada != null)
+            {
+                ViewData["MedicoNombre"] = new SelectList(_context.Medicos
+                    .Where(m => m.Especialidad == especialidadSeleccionada), "Id", "NombreCompleto");
+            }
+            else
+            {
+                ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
+            }
             ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
             return View();
         }
@@ -66,14 +82,19 @@ namespace TUTORIAL1.Controllers
 
             //if (TryValidateModel(turno))
             //{                
-                _context.Add(turno);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+            _context.Add(turno);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
             //}
+
+
+
             ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
+
             ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
             return View(turno);
         }
+
 
         // GET: Turno/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -187,6 +208,22 @@ namespace TUTORIAL1.Controllers
 
             return View(turnos); 
         }
+        public IActionResult SelectEspecialidad()
+        {
+            var especialidades = Enum.GetValues(typeof(Especialidad)).Cast<Especialidad>();
+            ViewBag.Especialidades = new SelectList(especialidades);
+            return View();
+        }
+
+        // POST: Turno/FilterByEspecialidad
+        [HttpPost]
+        public IActionResult FilterByEspecialidad(Especialidad especialidad)
+        {
+            // Guardar la especialidad seleccionada en TempData para usarla en el método Create
+            TempData["EspecialidadSeleccionada"] = especialidad;
+            return RedirectToAction("Create");
+        }
+
     }
 }
 

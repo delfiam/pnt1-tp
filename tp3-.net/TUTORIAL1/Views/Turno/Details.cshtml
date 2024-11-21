@@ -4,7 +4,6 @@
     ViewData["Title"] = "Detalles";
 }
 
-<h1>Detalles</h1>
 <div class=" items-center justify-center" >
 
 <div class=" p-12 bg-white border border-gray-200 rounded-lg shadow">
@@ -47,11 +46,11 @@ Médico DNI        </dt>
             @Html.DisplayFor(model => model.Paciente.NombreCompleto)
         </dd>
     </dl>
-     <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Editar</a> 
-    <a class="btn btn-primary" asp-action="Index">Volver a la lista</a>
-</div>
-</div>
-<div class="grid grid-cols-2 gap-10">
+        <div class="grid grid-cols-2 gap-10">
 
-   
+            <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Editar</a>
+            <a class="btn btn-primary" asp-action="Index">Volver a la lista</a>
+        </div>
+
+</div>
 </div>
