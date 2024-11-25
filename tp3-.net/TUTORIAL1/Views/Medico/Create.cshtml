@@ -4,10 +4,8 @@
     ViewData["Title"] = "Crear";
 }
 
-<h1>Crear</h1>
-
-<h4>Medico</h4>
-<hr />
+<a asp-action="Index"><</a>
+<div class=" p-12 bg-white border border-gray-200 rounded-lg shadow">
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create" class="max-w-sm mx-auto">
@@ -36,8 +34,7 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Volver a la lista de Medicos</a>
+
 </div>
 
 @section Scripts {

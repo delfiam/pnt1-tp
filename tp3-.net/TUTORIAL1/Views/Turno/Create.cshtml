@@ -3,11 +3,10 @@
 @{
     ViewData["Title"] = "Crear";
 }
+<a asp-action="Index"><</a>
+<div class=" p-12 bg-white border border-gray-200 rounded-lg shadow">
+<h1 class="title">Crear turno</h1>
 
-<h1>Crear </h1>
-<h4>Turno</h4>
-
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create" class="max-w-sm mx-auto">
@@ -32,8 +31,6 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Volver a la lista de turnos. </a>
 </div>
 
 @section Scripts {

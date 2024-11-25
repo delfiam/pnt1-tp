@@ -3,11 +3,10 @@
 @{
     ViewData["Title"] = "Editar";
 }
+<a asp-action="Index"><</a>
+<div class=" p-12 bg-white border border-gray-200 rounded-lg shadow">
+<h1 class="title">Editar médico</h1>
 
-<h1>Editar</h1>
-
-<h4>Medico</h4>
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit" class="max-w-sm mx-auto">
@@ -36,9 +35,6 @@
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Volver a la lista de medicos.</a>
 </div>
 
 @section Scripts {

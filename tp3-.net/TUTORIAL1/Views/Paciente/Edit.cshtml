@@ -4,10 +4,10 @@
     ViewData["Title"] = "Editar";
 }
 
-<h1>Editar</h1>
+<a asp-action="Index"><</a>
 
-<h4>Paciente</h4>
-<hr />
+    <div class=" p-12 bg-white border border-gray-200 rounded-lg shadow">
+    <h1 class="title">Editar paciente</h1>
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit" class="max-w-sm mx-auto">
@@ -31,15 +31,14 @@
                 <span asp-validation-for="ObraSocial" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Guardar  cambios" class="btn btn-primary" />
+                <input type="submit" value="Guardar cambios" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Volver a la lista de pacientes</a>
-</div>
+    </div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

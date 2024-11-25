@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -77,22 +78,19 @@ namespace TUTORIAL1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("FechaHora,MedicoId,PacienteId")] Turno turno)
         {
-            turno.Medico = await _context.Medicos.FindAsync(turno.MedicoId);
-            turno.Paciente = await _context.Pacientes.FindAsync(turno.PacienteId);
+            ModelState.Remove("Medico");
+            ModelState.Remove("Paciente");
+            if (!ModelState.IsValid)
+            {
 
-            //if (TryValidateModel(turno))
-            //{                
+                ViewData["MedicoId"] = new SelectList(_context.Medicos.ToList(), "Id", "NombreCompleto", turno.MedicoId);
+                ViewData["PacienteId"] = new SelectList(_context.Pacientes.ToList(), "Id", "NombreCompleto", turno.PacienteId);
+                return View(turno);
+            }
+
             _context.Add(turno);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-            //}
-
-
-
-            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
-
-            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
-            return View(turno);
         }
 
 
@@ -109,8 +107,9 @@ namespace TUTORIAL1.Controllers
             {
                 return NotFound();
             }
-            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
-            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
+            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto", turno.MedicoId);
+            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto", turno.PacienteId);
+
             return View(turno);
         }
 
@@ -121,15 +120,14 @@ namespace TUTORIAL1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,FechaHora,MedicoId,PacienteId")] Turno turno)
         {
-            turno.Medico = await _context.Medicos.FindAsync(turno.MedicoId);
-            turno.Paciente = await _context.Pacientes.FindAsync(turno.PacienteId);
-
             if (id != turno.Id)
             {
                 return NotFound();
             }
 
-            //if (ModelState.IsValid)
+            ModelState.Remove("Medico");
+            ModelState.Remove("Paciente");
+            if (ModelState.IsValid)
             {
                 try
                 {
@@ -149,10 +147,12 @@ namespace TUTORIAL1.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
-            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
+            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto", turno.MedicoId);
+            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto", turno.PacienteId);
+
             return View(turno);
         }
+
 
         // GET: Turno/Delete/5
         public async Task<IActionResult> Delete(int? id)

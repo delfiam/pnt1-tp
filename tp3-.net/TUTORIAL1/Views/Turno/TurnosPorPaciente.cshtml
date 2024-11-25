@@ -3,9 +3,8 @@
 @{
     ViewData["Title"] = "Mis turnos";
 }
+<h1 class="title">Mis turnos</h1>
 
-<h2>Mis Turnos</h2>
-<br />
 
 @if (ViewBag.ErrorMessage != null)
 {
@@ -26,6 +25,7 @@ else
                 <th>
                     @Html.DisplayNameFor(model => model.Medico.Especialidad)
                 </th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -41,6 +41,17 @@ else
                   
                     <td>
                         @Html.DisplayFor(modelItem => item.Medico.Especialidad)
+                    </td>
+                    <td>
+                    
+                        
+                        <a asp-action="Details" asp-route-id="@item.Id">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </a>
+                        |
+                        <a asp-action="Delete" asp-route-id="@item.Id">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
                     </td>
                 </tr>
             }
