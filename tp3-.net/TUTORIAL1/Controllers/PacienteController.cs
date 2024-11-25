@@ -58,9 +58,18 @@ namespace TUTORIAL1.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(paciente);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if (PacienteExistsByDni(paciente.Dni))
+                {
+                    ViewBag.ErrorMessage = "El DNI ya existe.";
+                    return View(paciente);
+
+                }
+                else
+                {
+                    _context.Add(paciente);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
             }
             return View(paciente);
         }
@@ -171,6 +180,9 @@ namespace TUTORIAL1.Controllers
             ViewBag.ErrorMessage = "DNI no válido.";
             return View("Identificarse");
         }
-
+        private bool PacienteExistsByDni(string dni)
+        {
+            return _context.Pacientes.Any(p => p.Dni == dni);
+        }
     }
 }

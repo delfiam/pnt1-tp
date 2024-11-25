@@ -5,7 +5,10 @@
 }
 <a asp-action="Index"><</a>
 <div class=" p-12 bg-white border border-gray-200 rounded-lg shadow">
-<h1 class="title">Crear paciente</h1>
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <p style="color:red;">@ViewBag.ErrorMessage</p>
+    }
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create" class="max-w-sm mx-auto">

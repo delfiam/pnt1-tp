@@ -58,9 +58,17 @@ namespace TUTORIAL1.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(medico);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if (MedicoExistsByDni(medico.Dni))
+                {
+                    ViewBag.ErrorMessage = "El DNI ya existe.";
+                    return View(medico); 
+                }
+                else
+                {
+                    _context.Add(medico);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
             }
             return View(medico);
         }
@@ -152,6 +160,10 @@ namespace TUTORIAL1.Controllers
         private bool MedicoExists(int id)
         {
             return _context.Medicos.Any(e => e.Id == id);
+        }
+        private bool MedicoExistsByDni(string dni)
+        {
+            return _context.Medicos.Any(p => p.Dni == dni);
         }
     }
 }
