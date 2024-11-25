@@ -1,44 +1,43 @@
 ﻿@model TUTORIAL1.Models.Medico
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear";
 }
 
-<h1>Agregar médico</h1>
-<br />
+<h1>Crear</h1>
 
+<h4>Medico</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create" class="max-w-sm mx-auto">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <br />
             <div class="form-group">
                 <label asp-for="Dni" class="block mb-2 text-sm font-medium text-gray-900">DNI</label>
                 <input asp-for="Dni" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Ingresar DNI" />
                 <span asp-validation-for="Dni" class="text-danger"></span>
             </div>
-            <br />
             <div class="form-group">
-                <label class="block mb-2 text-sm font-medium text-gray-900">Nombre Completo</label>
+                <label asp-for="NombreCompleto" class="block mb-2 text-sm font-medium text-gray-900">Nombre Completo</label>
                 <input asp-for="NombreCompleto" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Ingresar Nombre"  />
                 <span asp-validation-for="NombreCompleto" class="text-danger"></span>
             </div>
-            <br />
             <div class="form-group">
                 <label asp-for="Especialidad" class="block mb-2 text-sm font-medium text-gray-900" ></label>
                 <select asp-for="Especialidad" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" asp-items="Html.GetEnumSelectList<Especialidad>()">
-                    <option selected="selected" value="">Elegir una opción</option>
+                    <option selected="selected" value="">Please select</option>
                 </select>
                 <span asp-validation-for="Especialidad" class="text-danger"></span>
             </div>
-            <br />
-            <div class="form-group d-flex justify-content-center align-items-center" style="gap: 10px;">
-                <input type="submit" value="Agregar" class="btn btn-primary" style="width: 150px; height: 50px; font-size: 16px; text-align: center;" />
-                <a asp-action="Index" class="btn btn-secondary" style="width: 150px; height: 50px; font-size: 16px; text-align: center; display: flex; align-items: center; justify-content: center;">Volver</a>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
             </div>
         </form>
     </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la lista de Medicos</a>
 </div>
 
 @section Scripts {

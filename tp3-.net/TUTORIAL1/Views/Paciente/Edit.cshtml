@@ -1,48 +1,45 @@
 ﻿@model TUTORIAL1.Models.Paciente
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
 }
 
-<h1>Editar registro</h1>
-<br />
+<h1>Editar</h1>
+
+<h4>Paciente</h4>
 <hr />
-<br />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
+        <form asp-action="Edit" class="max-w-sm mx-auto">
+            <div asp-validation-summary="ModelOnly" class="block mb-2 text-sm font-medium text-gray-900"></div>
+            <input type="hidden" asp-for="Id" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
             <div class="form-group">
-                <label asp-for="Dni" class="control-label"></label>
-                <input asp-for="Dni" class="form-control" />
+                <label asp-for="Dni" class="block mb-2 text-sm font-medium text-gray-900">DNI</label>
+                <input asp-for="Dni" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                 <span asp-validation-for="Dni" class="text-danger"></span>
             </div>
-            <br />
             <div class="form-group">
-                <label asp-for="NombreCompleto" class="control-label"></label>
-                <input asp-for="NombreCompleto" class="form-control" />
+                <label asp-for="NombreCompleto" class="block mb-2 text-sm font-medium text-gray-900">Nombre completo</label>
+                <input asp-for="NombreCompleto" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                 <span asp-validation-for="NombreCompleto" class="text-danger"></span>
             </div>
-            <br />
             <div class="form-group">
-                <label asp-for="ObraSocial" class="control-label"></label>
-                <select asp-for="ObraSocial" class="form-control" asp-items="Html.GetEnumSelectList<ObraSocial>()">
+                <label asp-for="ObraSocial" class="block mb-2 text-sm font-medium text-gray-900"></label>
+                <select asp-for="ObraSocial" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" asp-items="Html.GetEnumSelectList<ObraSocial>()">
                     <option selected="selected" value="">Obra Social</option>
                 </select>
                 <span asp-validation-for="ObraSocial" class="text-danger"></span>
             </div>
-            <br />
-            <div class="form-group d-flex justify-content-center align-items-center" style="gap: 10px;">
-                <input type="submit" value="Guardar" class="btn btn-primary" style="width: 150px; height: 50px; font-size: 16px; text-align: center;" />
-                <a asp-action="Index" class="btn btn-secondary" style="width: 150px; height: 50px; font-size: 16px; text-align: center; display: flex; align-items: center; justify-content: center;">Volver</a>
+            <div class="form-group">
+                <input type="submit" value="Guardar  cambios" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-    
-
+<div>
+    <a asp-action="Index">Volver a la lista de pacientes</a>
+</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

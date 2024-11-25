@@ -3,32 +3,35 @@
 @{
     ViewData["Title"] = "Editar";
 }
-<h1>Editar turno</h1>
-<br />
+
+<h1>Editar</h1>
+
+<h4>Turno</h4>
 <hr />
-<br />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
+        <form asp-action="Edit" class="max-w-sm mx-auto">
+            
+            <div asp-validation-summary="ModelOnly" class="block mb-2 text-sm font-medium text-gray-900"></div>
+            <input type="hidden" asp-for="Id" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
             <div class="form-group">
-                <label asp-for="FechaHora" class="control-label"> Fecha y hora</label>
-                <input asp-for="FechaHora" class="form-control" />
+                <label asp-for="FechaHora" class="block mb-2 text-sm font-medium text-gray-900">Fecha y Hora</label>
+                <input asp-for="FechaHora" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
                 <span asp-validation-for="FechaHora" class="text-danger"></span>
             </div>
-            <br />
             <div class="form-group">
-                <label asp-for="Medico" class="control-label"></label>
-                <select asp-for="MedicoId" class="form-control" asp-items="ViewBag.MedicoNombre"></select>
+                <label asp-for="Medico" class="block mb-2 text-sm font-medium text-gray-900"></label>
+                <select asp-for="MedicoId" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" asp-items="ViewBag.MedicoNombre"></select>
             </div>
-            <br />
-            <div class="form-group d-flex justify-content-center align-items-center" style="gap: 10px;">
-                <input type="submit" value="Guardar" class="btn btn-primary" style="width: 150px; height: 50px; font-size: 16px; text-align: center;" />
-                <a asp-action="Index" class="btn btn-secondary" style="width: 150px; height: 50px; font-size: 16px; text-align: center; display: flex; align-items: center; justify-content: center;">Volver</a>
+            <div class="form-group">
+                <input type="submit" value="Guardar Cambios" class="btn btn-primary" />
             </div>
         </form>
     </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la lista de turnos</a>
 </div>
 
 @section Scripts {
