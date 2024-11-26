@@ -3,7 +3,6 @@
 @{
     ViewData["Title"] = "Editar";
 }
-<a asp-action="Index"><</a>
 <div class=" p-12 bg-white border border-gray-200 rounded-lg shadow">
 
 <div class="row">
@@ -32,6 +31,8 @@
                 </div>
             <div class="form-group">
                 <input type="submit" value="Guardar Cambios" class="btn btn-primary" />
+                    <a class="btn btn-primary" asp-action="Index">Volver a la lista</a>
+
             </div>
         </form>
     </div>

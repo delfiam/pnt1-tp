@@ -16,7 +16,7 @@
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "El DNI es requerido")]
         public string Dni { get; set; }
 
         [Required]
