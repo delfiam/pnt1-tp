@@ -26,7 +26,6 @@
             <div class="form-group">
                 <label asp-for="Especialidad" class="block mb-2 text-sm font-medium text-gray-900" ></label>
                 <select asp-for="Especialidad" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" asp-items="Html.GetEnumSelectList<Especialidad>()">
-                    <option selected="selected" value="">Seleccione una opcion</option>
                     <option selected="selected" value="">Seleccionar especialidad</option>
                 </select>
                 <span asp-validation-for="Especialidad" class="text-danger"></span>
