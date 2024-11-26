@@ -16,13 +16,14 @@
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "El DNI es requerido")]
+        [RegularExpression(@"^\d{8}$", ErrorMessage = "El DNI debe tener exactamente 8 dígitos.")]
         public string Dni { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Los NOMBRES y APELLIDOS son requeridos")]
         public string NombreCompleto { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Debe seleccionar una OBRA SOCIAL")]
         public ObraSocial ObraSocial { get; set; }
 
         public ICollection<Turno>? Turnos { get; set; }

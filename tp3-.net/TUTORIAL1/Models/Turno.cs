@@ -8,17 +8,17 @@
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "La fecha es requerida")]
         [Display(Name = "Día y Hora")]
         public DateTime FechaHora { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Debe seleccionar un medico")]
         public int MedicoId { get; set; }
 
         [ForeignKey("MedicoId")]
         public Medico Medico { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Debe seleccionar un paciente")]
         public int PacienteId { get; set; }
 
         [ForeignKey("PacienteId")]
