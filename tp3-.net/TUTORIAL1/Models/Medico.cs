@@ -20,7 +20,7 @@
         [RegularExpression(@"^\d{8}$", ErrorMessage = "El DNI debe tener exactamente 8 dígitos.")]
         public string Dni { get; set; }
 
-        [Required(ErrorMessage = "Los NOMBRES y APELLIDOS son requeridos")]
+        [Required(ErrorMessage = "El nombre es requerido")]
         public string NombreCompleto { get; set; }
 
         [Required(ErrorMessage = "Debe seleccionar una especialidad")]
