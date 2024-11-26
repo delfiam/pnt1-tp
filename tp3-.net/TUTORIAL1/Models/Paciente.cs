@@ -6,6 +6,7 @@
     public enum ObraSocial
     {
         OSDE,
+        [Display(Name = "Swiss Medical")]
         SwissMedical,
         Galeno,
         // otras obras sociales
