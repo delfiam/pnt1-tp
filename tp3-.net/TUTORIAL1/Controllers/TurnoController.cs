@@ -83,28 +83,35 @@ namespace TUTORIAL1.Controllers
            
             if (!ModelState.IsValid)
             {
-               
 
-                    ViewData["MedicoId"] = new SelectList(_context.Medicos.ToList(), "Id", "NombreCompleto", turno.MedicoId);
-                    ViewData["PacienteId"] = new SelectList(_context.Pacientes.ToList(), "Id", "NombreCompleto", turno.PacienteId);
-                    return View(turno);
+
+                RefrescarLista(turno);
+
+                return View(turno);
                 
             }
             if (!IsFechaValida(turno.FechaHora))
             {
                 ViewBag.ErrorMessage = "La fecha debe ser mayor al día de hoy y no puede exceder un año.";
-                ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
-                ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
+                RefrescarLista(turno);
+
                 return View(turno);
 
             }
             if (!DentroHorarioLaboral(turno.FechaHora))
             {
                 ViewBag.ErrorMessage = "El horario debe estar dentro de las horas laborales (8:00 a 16:00).";
-                ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
-                ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
+                RefrescarLista(turno);
+
                 return View(turno);
             }
+            if (TurnoNoDisponible(turno.MedicoId, turno.FechaHora))
+            {
+                ViewBag.ErrorMessage = "El médico no está disponible.";
+                RefrescarLista(turno);
+                return View(turno);
+            }
+
             _context.Add(turno);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -124,8 +131,8 @@ namespace TUTORIAL1.Controllers
             {
                 return NotFound();
             }
-            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto", turno.MedicoId);
-            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto", turno.PacienteId);
+            RefrescarLista(turno);
+
 
             return View(turno);
         }
@@ -149,16 +156,22 @@ namespace TUTORIAL1.Controllers
                 if (!IsFechaValida(turno.FechaHora))
                 {
                     ViewBag.ErrorMessage = "La fecha debe ser mayor al día de hoy y no puede exceder un año.";
-                    ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
-                    ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
+                    RefrescarLista(turno);
+
                     return View(turno);
 
                 }
                 if (!DentroHorarioLaboral(turno.FechaHora))
                 {
                     ViewBag.ErrorMessage = "El horario debe estar dentro de las horas laborales (8:00 a 16:00).";
-                    ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto");
-                    ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto");
+                    RefrescarLista(turno);
+
+                    return View(turno);
+                }
+                if (TurnoNoDisponible(turno.MedicoId, turno.FechaHora))
+                {
+                    ViewBag.ErrorMessage = "El médico no está disponible.";
+                    RefrescarLista(turno);
                     return View(turno);
                 }
                 else 
@@ -183,9 +196,7 @@ namespace TUTORIAL1.Controllers
 
                 }
             }
-            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto", turno.MedicoId);
-            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto", turno.PacienteId);
-
+            RefrescarLista(turno);
             return View(turno);
         }
 
@@ -271,6 +282,24 @@ namespace TUTORIAL1.Controllers
             return horaTurno >= horaInicio && horaTurno <= horaFin;
         }
 
+        private void RefrescarLista(Turno turno)
+        {
+            ViewData["MedicoNombre"] = new SelectList(_context.Medicos, "Id", "NombreCompleto", turno.MedicoId);
+            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto", turno.PacienteId);
+        }
+        // el médico puede agendar turnos dentro de una hora
+        private bool TurnoNoDisponible(int medicoId, DateTime fechaHora)
+        {
+            TimeSpan duracionTurno = TimeSpan.FromHours(1);
+
+            DateTime inicioRango = fechaHora;
+            DateTime finRango = fechaHora.Add(duracionTurno);
+
+            return _context.Turnos.Any(t =>
+                t.MedicoId == medicoId &&
+                (t.FechaHora >= inicioRango && t.FechaHora < finRango ||
+                 t.FechaHora >= inicioRango.Add(-duracionTurno) && t.FechaHora < finRango));
+        }
 
     }
 
