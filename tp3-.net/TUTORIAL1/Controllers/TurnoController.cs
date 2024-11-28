@@ -290,7 +290,7 @@ namespace TUTORIAL1.Controllers
         // el médico puede agendar turnos dentro de una hora
         private bool TurnoNoDisponible(int medicoId, DateTime fechaHora)
         {
-            TimeSpan duracionTurno = TimeSpan.FromHours(1);
+            TimeSpan duracionTurno = TimeSpan.FromMinutes(59);
 
             DateTime inicioRango = fechaHora;
             DateTime finRango = fechaHora.Add(duracionTurno);
