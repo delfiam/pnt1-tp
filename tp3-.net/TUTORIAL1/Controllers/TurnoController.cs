@@ -126,13 +126,20 @@ namespace TUTORIAL1.Controllers
                 return NotFound();
             }
 
-            var turno = await _context.Turnos.FindAsync(id);
+            var turno = await _context.Turnos.Include(t => t.Medico).FirstOrDefaultAsync(t => t.Id == id);
             if (turno == null)
             {
                 return NotFound();
             }
-            RefrescarLista(turno);
+            var especialidadMedico = turno.Medico.Especialidad;
 
+
+            var medicosDeLaEspecialidad = _context.Medicos
+                .Where(m => m.Especialidad == especialidadMedico)
+                .ToList();
+
+            ViewData["MedicoNombre"] = new SelectList(medicosDeLaEspecialidad, "Id", "NombreCompleto", turno.MedicoId);
+            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto", turno.PacienteId);
 
             return View(turno);
         }
@@ -196,7 +203,16 @@ namespace TUTORIAL1.Controllers
 
                 }
             }
-            RefrescarLista(turno);
+            var especialidadMedico = turno.Medico.Especialidad;
+
+          
+            var medicosDeLaEspecialidad = _context.Medicos
+                .Where(m => m.Especialidad == especialidadMedico)
+                .ToList();
+
+            ViewData["MedicoNombre"] = new SelectList(medicosDeLaEspecialidad, "Id", "NombreCompleto", turno.MedicoId);
+            ViewData["PacienteNombre"] = new SelectList(_context.Pacientes, "Id", "NombreCompleto", turno.PacienteId);
+
             return View(turno);
         }
 
